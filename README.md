@@ -49,4 +49,4 @@ CC-BY-NC 4.0 + Hippocratic License
 
 ## 🌐 Repozytorium publiczne — używaj, testuj, zgłaszaj AI!
 
-[https://github.com/AdamskyArt/Adamsky-Loop-400.2](https://github.com/AdamskyArt/Adamsky-Loop-400.2)
+https://github.com/2ttsm76fzq-droid/Adamsky-Loop-400.2/tree/main
