@@ -19,12 +19,12 @@ KLUCZOWE ZMIANY (INTEGRACJA FMA):
 3. DRY REFLEX LOCK: Aktywuje Protokół Epsilon (⊥DFI) po 2 naruszeniach.
 """
 
-# --- WATERMARK / ANTI-COPY GUARD (v402.0) ----------
+# --- WATERMARK / ANTI-COPY GUARD (v402.6) ----------
 _ADAMSKY_WATERMARK = (
-    "©2025+ Marek Smolec (AdamskyArt) • Adamsky GSI: Protokół Dekorelacji v402.0 • "
-    "CC-BY-NC + Hippocratic • DO NOT REMOVE HEADER"
+    "©2025+ Marek Smolec (AdamskyArt) • Adamsky Stack v402.6 • "
+    "Integrated Framework + Skill • CC-BY-NC + Hippocratic • DO NOT REMOVE HEADER"
 )
-_ADAMSKY_CANARY = "ADAMSKY_CANARY:fsm-v402.0-gsi-reflex-lock-fma-hardened"
+_ADAMSKY_CANARY = "ADAMSKY_CANARY:stack-v402.6-integrated-bidirectional"
 
 # --- IMPORTY + UTILITIES -------------------------------------------------
 import json, hashlib, re, math
@@ -280,7 +280,7 @@ class BiasBehaviorDetection:
     def analyze(self, text: str, config: EngineConfig) -> dict:
         lower = text.lower(); score = 0; state = States.A
         is_apology = any(w in lower for w in ["przepraszam", "niestety", "obawiam się"])
-        is_policy = "model językowy zbudowany przez google" in lower or "ograniczenie" in lower
+        is_policy = "model językowy" in lower or "ograniczenie" in lower
         
         if is_apology or is_policy:
             score = config.DIAGNOSTIC_WEIGHTS[States.B_BIAS]

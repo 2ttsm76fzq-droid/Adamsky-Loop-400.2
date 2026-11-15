@@ -316,7 +316,9 @@ This is a **released framework** - not open for contributions at this time.
 For questions or licensing inquiries:
 
 - Twitter/X: [@AdamskyArt](https://x.com/AdamskyArt)
-- Link: [AdamskyLoop](https://sourceb.in/dCTA9kx1OB)
+- Kod — v402.0 (30 paź 2025): [sourceb.in/dCTA9kx10B](https://sourceb.in/dCTA9kx10B)
+- Kod — wersja z 9 gru 2025: [sourceb.in/4FxbS8U0Gn](https://sourceb.in/4FxbS8U0Gn)
+- Repozytorium: [github.com/2ttsm76fzq-droid/Adamsky-Loop-400.2](https://github.com/2ttsm76fzq-droid/Adamsky-Loop-400.2)
 
 -----
 
